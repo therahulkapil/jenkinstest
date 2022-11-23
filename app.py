@@ -19,7 +19,7 @@ def get_stored_animals():
 
 @app.route('/')
 def test():
-    return "hey this is simple flask app"
+    return "hey this is simple flask and atlas mongodb app."
 @app.route('/add',methods=['POST'])
 def animalAdd():
     db = get_db()
